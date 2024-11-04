@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","276","test_login_success[chromium-user-user]","tests","Mon Nov 04 21:12:25 GMT 2024","passed","Mon Nov 04 21:12:25 GMT 2024","","test_login","",""
+"","274","test_login_success[chromium-admin-admin]","tests","Mon Nov 04 21:12:25 GMT 2024","passed","Mon Nov 04 21:12:25 GMT 2024","","test_login","",""
+"Тест аутентификации в системе с некорректными данными пользователя","218","Некорректные данные","tests","Mon Nov 04 21:12:24 GMT 2024","passed","Mon Nov 04 21:12:25 GMT 2024","","test_login","",""
