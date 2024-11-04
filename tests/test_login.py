@@ -1,9 +1,18 @@
+import allure
 import pytest
 
 
+@allure.epic('Web Interface')
+@allure.feature('Доступ к системе')
+@allure.story('Аутентификация')
+@allure.title('Некорректные данные')
+@allure.description('Тест аутентификации в системе с некорректными данными пользователя')
+@allure.severity(allure.severity_level.MINOR)
 def test_login_failure(login_page):
-    login_page.navigate()
-    login_page.login('1', '2')
+    with allure.step("Открыть страницу аутентификации."):
+        login_page.navigate()
+    with allure.step("Попытаться пройти аутентификацию."):
+        login_page.login('1', '2')
     assert login_page.get_error_message() == 'Invalid credentials. Please try again.'
 
 
