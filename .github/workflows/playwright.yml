@@ -28,7 +28,7 @@ jobs:
           name: allure_report
           path: reports/
       - name: Get allure history
-        uses: actions/checkout@V2
+        uses: actions/checkout@v2
         if: always()
         continue-on-error: true
         with:
