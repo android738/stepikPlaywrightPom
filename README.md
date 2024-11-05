@@ -1,6 +1,6 @@
 1. После установки всех зависимостей (requirements) выполнить команду:
 ```bash
-playwright install
+python -m playwright install --with-deps
 ```
 2. Затем можно выполнить запуск тестов:
 ```bash
